@@ -4,15 +4,11 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class UebungVcsApplicationTests {
+public class DemoApplicationIT {
 
     @Test
-    void contextLoads() {
-    }
-
-    @Test
-    void my_simple_unit_test() {
-        System.out.println("This is a unit test!");
+    void my_simple_integration_test() {
+        System.out.println("This is a integration test!");
     }
 
 }
